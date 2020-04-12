@@ -28,7 +28,7 @@
     "type": "git",
     "url": "git+https://github.com/odjhey/ts-template"
   },
-  "files": ["lib/**/*"],
+  "files": ["dist/**/*"],
   "devDependencies": {
     "@types/jest": "^25.1.4",
     "@types/node": "^13.9.1",
