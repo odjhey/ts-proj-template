@@ -1,12 +1,15 @@
 {
   "name": "ts-template",
   "version": "0.0.1",
-  "description": "authentication service",
+  "description": "project ts template",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "Odee <odjhey@gmail.com>",
   "license": "MIT",
-  "keywords": ["authentication", "auth"],
+  "keywords": [
+    "authentication",
+    "auth"
+  ],
   "scripts": {
     "start": "node -r ts-node/register ./index.ts",
     "start:watch": "nodemon index.ts",
@@ -24,11 +27,10 @@
     "release": "npm run format && npm run lint && npm run test && standard-version",
     "release:beta": "npm run format && npm run lint && npm run test && standard-version -p beta"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/odjhey/ts-template"
-  },
-  "files": ["dist/**/*"],
+  "repository": "git+https://github.com/odjhey/ts-template",
+  "files": [
+    "dist/**/*"
+  ],
   "devDependencies": {
     "@types/jest": "^25.1.4",
     "@types/node": "^13.9.1",
